@@ -2,7 +2,7 @@
 
 A full-stack product management dashboard built with Next.js (App Router), Node.js / Express, and MongoDB.
 
-**Live Demo:** `https://your-vercel-url.vercel.app`
+**Live Demo:** `https://hybrid-dashboard-iota.vercel.app/`
 **Loom Walkthrough:** `https://your-loom-url`
 
 ---
@@ -53,18 +53,18 @@ Each category in the filter dropdown shows a live count of matching products (e.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hybrid-dashboard.git
-cd hybrid-dashboard
+git clone https://github.com/rishabhraikwar98/Hybrid_Dashboard.git
+cd Hybrid-Dashboard
 ```
 
 ### 2. Backend setup
 
 ```bash
-cd server
+cd backend
 npm install
 ```
 
-Create a `.env` file in `server/`:
+Create a `.env` file in `backend/`:
 
 ```env
 MONGO_URI=your_mongodb_atlas_connection_string
@@ -90,11 +90,11 @@ Backend runs on `http://localhost:5000`
 ### 3. Frontend setup
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
-Create a `.env.local` file in `client/`:
+Create a `.env.local` file in `frontend/`:
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:5000
