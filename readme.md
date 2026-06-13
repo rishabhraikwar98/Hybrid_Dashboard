@@ -2,7 +2,7 @@
 
 A full-stack product management dashboard built with Next.js (App Router), Node.js / Express, and MongoDB.
 
-**Live Demo:** `https://hybrid-dashboard-iota.vercel.app/`
+**Live Demo:** `https://hybrid-dashboard-eight.vercel.app`
 **Loom Walkthrough:** `https://your-loom-url`
 
 ---
